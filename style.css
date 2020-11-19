@@ -1,8 +1,11 @@
 body{
-    background-color: aqua;
+    background-color: black;
 }
 h1{
-    color: orange;
+    color: white;
+}
+h2{
+    color: white;
 }
 p{
     margin: 0px;

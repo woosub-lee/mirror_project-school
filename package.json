@@ -1,20 +1,23 @@
 {
-    "name": "ohmymirror",
-    "version": "0.1.0",
-    "main": "main.js",
-    "description": "INCHEON ELECTRONIC MEISTER HIGHSCHOOL\r Meister Deverlopment Project(MDP) - SmartMirror",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "electron ."
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/woosub-lee/mirror_project-school.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/woosub-lee/mirror_project-school/issues"
-    },
-    "homepage": "https://github.com/woosub-lee/mirror_project-school#readme"
+  "name": "ohmymirror",
+  "version": "0.1.0",
+  "main": "main.js",
+  "description": "INCHEON ELECTRONIC MEISTER HIGHSCHOOL\r Meister Deverlopment Project(MDP) - SmartMirror",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woosub-lee/mirror_project-school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woosub-lee/mirror_project-school/issues"
+  },
+  "homepage": "https://github.com/woosub-lee/mirror_project-school#readme",
+  "keywords": [],
+  "devDependencies": {
+    "electron": "^11.0.1"
+  }
 }

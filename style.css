@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: orange;
+}
+p{
+    margin: 0px;
+}
+#red_style{
+    color: red;
+    font-size: large;
+}
+#green_style{
+    color: green;
+    font-size: medium;
+}
+#blue_style{
+    color: blue;
+    font-size: small;
+}

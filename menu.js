@@ -1,8 +1,7 @@
 const Breakfast = document.querySelector(".breakfast");
 const Lunch = document.querySelector(".lunch");
 const Dinner = document.querySelector(".dinner");
-const TODAY = "today";
-function getMenus(year,month,date,allergy){
+function printMenus(year,month,date,allergy){
     fetch(
         `https://schoolmenukr.ml/api/high/E100000276?&year=${year}&month=${month}&date=${date}&allergy=${allergy}`
     ).then(function(response){
@@ -19,9 +18,6 @@ function getMenus(year,month,date,allergy){
         Dinner.innerText = `저녁:${dinner}`;
     })
 }
-function savedate(dateObj){
-    localStorage.setItem(TODAY, JSON.stringify(dateObj));
-}
 function getDate(){
     const data = new Date();
     const year = data.getFullYear();
@@ -34,19 +30,9 @@ function getDate(){
         date,
         allergy
     };
-    savedate(dateObj);
-    getMenus(year,month,date,allergy);
-}
-function loadDate(){
-    const loadeddate = localStorage.getItem(TODAY);
-    if(loadeddate === null){
-        getDate();
-    }
-    const parseDate = JSON.parse(loadeddate);
-    getMenus(parseDate.year,parseDate.month,parseDate.date,parseDate.allergy);
-    
+    printMenus(year,month,date,allergy);
 }
 function init(){
-    loadDate();
+    getDate();
 }
 init();

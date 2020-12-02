@@ -1,5 +1,8 @@
 body{
-    background-color: black;
+    font-family: "Noto Sans CJK KR", serif;
+    background-image: url(img/images.jpg);
+    background-repeat: initial;
+    background-size: cover;
 }
 h1{
     color: white;
@@ -12,15 +15,16 @@ h2{
 }
 p{
     margin: 0px;
+    font-size: 30px;
 }
 #red_style{
-    color: red;
+    color: #f59fb8;
 }
 #green_style{
-    color: green;
+    color: #aad272;
 }
 #blue_style{
-    color: blue;
+    color: #84BCd5;
 }
 h4{
     text-align: center;

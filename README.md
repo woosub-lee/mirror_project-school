@@ -8,3 +8,5 @@ Meister Deverlopment Project(MDP) - SmartMirror
 * Showing temperature and weather  
 * Save username and greet to user  
 * makeing toDoList
+--------------
+It will be mounted on a pi.

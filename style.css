@@ -1,8 +1,9 @@
 body{
     font-family: "Noto Sans CJK KR", serif;
-    background-image: url(img/images.jpg);
+    background-image: url(img/black.jpeg);
     background-repeat: initial;
     background-size: cover;
+    color: white;
 }
 h1{
     color: white;

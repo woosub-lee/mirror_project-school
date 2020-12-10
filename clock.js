@@ -1,5 +1,5 @@
-const clockContainer = document.querySelector(".clock");
-const clockTitle = clockContainer.querySelector(".title");
+const clockContainer = document.querySelector(".TOP_MIDDLE");
+const clockTitle = clockContainer.querySelector(".contents");
 function getTime(){
     const date = new Date();
     const minute = date.getMinutes();

@@ -6,32 +6,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Oh My Mirror!</h1>
-    <h2 class="weather"></h2>
-    <div class="clock">
-        <h2 class="title"></h2>
+    <div class="TOP_LEFT">
+        <p class="contents"></p>
     </div>
-    <h4 class="greeting greeting"></h4>
-    <form class="form form">
-        <input type="text" placeholder="what is your name"/>
-    </form>
-    <form class="toDoForm">
-        <input type="text" placeholder="Write a to do"/>
-    </form>
-    <ul class="toDoList"></ul>
-    <div class="food">
-        <p class="menu"></p>
+    <div class="TOP_MIDDLE">
+        <p class="contents"></p>
     </div>
-    <p class="breakfast"></p>
-    <p class="lunch"></p>
-    <p class="dinner"></p>
-    <p id="red_style">How Interesting!</p>
-    <p id="green_style">made by Lee woosub</p>
-    <p id="blue_style">made with Electron</p>
+    <div class="TOP_RIGHT">
+        <p class="greeting greeting"></p>
+        <form class="form form">
+            <input type="text" placeholder="what is your name"/>
+        </form>
+    </div>
+    <div class="CENTER_LEFT">
+        <form class="toDoForm">
+            <input type="text" placeholder="Write a to do"/>
+        </form>
+        <ol class="toDoList"></ol>
+    </div>
+    <div class="CENTER_MIDDLE">
+        <p class="title"></p>
+    </div>
+    <p class="breakfast" id="red_style"></p>
+    <p class="lunch" id="blue_style"></p>
+    <p class="dinner" id="green_style"></p>
     <script src="clock.js"></script>
     <script src="Todolist.js"></script>
     <script src="greeting.js"></script>
     <script src="menu.js"></script>
-    <script src="weather.js"></script>
+
 </body>
 </html>

@@ -1,6 +1,7 @@
-const form = document.querySelector(".form");
+const Doc1 = document.querySelector(".TOP_RIGHT");
+const form = Doc1.querySelector(".form");
 const input = form.querySelector("input");
-const greeting = document.querySelector(".greeting");
+const greeting = Doc1.querySelector(".greeting");
 const USER_LS = "currentUser";
 const SHOWING_CN = "showing";
 function saveName(text){

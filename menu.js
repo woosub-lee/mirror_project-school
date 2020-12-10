@@ -28,14 +28,8 @@ function getDate(){
     const data = new Date();
     const year = data.getFullYear();
     const month = data.getMonth()+1;
-    const date = data.getDate();
+    const date = data.getDate()+1;
     const allergy = "hidden";
-    const dateObj = {
-        year,
-        month,
-        date,
-        allergy
-    };
     printMenus(year,month,date,allergy);
 }
 function init(){

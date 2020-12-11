@@ -5,6 +5,17 @@ let month = 0;
 let date = 0;
 let day = 0;
 let day_han = "";
+const day_type = {
+    Hangul_text: [
+        {text: "일요일"},
+        {text: "월요일"},
+        {text: "화요일"},
+        {text: "수요일"},
+        {text: "목요일"},
+        {text: "금요일"},
+        {text: "토요일"}  
+    ]
+};
 function getTime(){
     const Data_date = new Date();
     year = Data_date.getFullYear();
@@ -14,17 +25,6 @@ function getTime(){
     const minute = Data_date.getMinutes();
     const hour = Data_date.getHours();
     const second = Data_date.getSeconds();
-    const day_type = {
-        Hangul_text: [
-            {text: "일요일"},
-            {text: "월요일"},
-            {text: "화요일"},
-            {text: "수요일"},
-            {text: "목요일"},
-            {text: "금요일"},
-            {text: "토요일"}  
-        ]
-    };
     day_han = day_type.Hangul_text[day].text;
     clockTitle.innerText = `${hour < 10 ? `0${hour}` : hour
         }:${minute < 10 ? `0${minute}` : minute

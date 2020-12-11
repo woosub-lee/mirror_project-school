@@ -28,7 +28,7 @@ function getDate(){
     const data = new Date();
     const year = data.getFullYear();
     const month = data.getMonth()+1;
-    const date = data.getDate()+1;
+    const date = data.getDate();
     const allergy = "hidden";
     printMenus(year,month,date,allergy);
 }

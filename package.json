@@ -18,9 +18,9 @@
   "homepage": "https://github.com/woosub-lee/mirror_project-school#readme",
   "keywords": [],
   "devDependencies": {
-    "electron": "^11.0.1"
+    "electron": "^11.1.1"
   },
   "dependencies": {
-    "firebase": "^8.2.0"
+    "firebase": "^8.2.1"
   }
 }

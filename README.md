@@ -7,6 +7,6 @@ Meister Deverlopment Project(MDP) - SmartMirror
 * Showing digital Clock  
 * Showing temperature and weather  
 * Save username and greet to user  
-* makeing toDoList
+* making toDoList
 --------------
-It will be mounted on a pi.
+It will be mounted on a raspberry pi.

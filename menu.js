@@ -7,9 +7,8 @@ function printMenus(year,month,date,allergy){
     ).then(function(response){
         return response.json();
     }).then(function(json){
-        const temp1 = JSON.stringify(json.menu);
-        const temp2 = temp1.substring(1,temp1.length-1);
-        const Menu_data = JSON.parse(temp2);
+        const temp = JSON.stringify(json.menu[0])
+        const Menu_data = JSON.parse(temp);
         let breakfast = JSON.stringify(Menu_data.breakfast);
         let lunch = JSON.stringify(Menu_data.lunch);
         let dinner = JSON.stringify(Menu_data.dinner);
@@ -28,7 +27,7 @@ function getDate(){
     const data = new Date();
     const year = data.getFullYear();
     const month = data.getMonth()+1;
-    const date = data.getDate();
+    const date = data.getHours()>18 ? data.getDate()+1 : data.getDate();
     const allergy = "hidden";
     printMenus(year,month,date,allergy);
 }

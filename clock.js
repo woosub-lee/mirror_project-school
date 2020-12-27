@@ -1,4 +1,5 @@
-const clockContainer = document.querySelector(".TOP_MIDDLE");
+let displayLocation_ClMo = ".TOP_MIDDLE";
+const clockContainer = document.querySelector(displayLocation_ClMo);
 const clockTitle = document.createElement("p");
 let year = 0;
 let month = 0;

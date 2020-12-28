@@ -1,4 +1,7 @@
-function coronaModule(locationCo, locationLo){
+function coronaModule(locationCo, locationLo, locationTi){
+    const displayLocation_CoTi = locationTi;
+    const virusTiContainer = document.querySelector(displayLocation_CoTi);
+    const virusTitle = document.createElement("h1");
     const displayLocation_CoLoMo = locationLo;
     const virusLoContainer = document.querySelector(displayLocation_CoLoMo);
     let displayLocation_CoCoMo = locationCo;
@@ -52,6 +55,8 @@ function coronaModule(locationCo, locationLo){
         })
     }
     function init(){
+        virusTitle.innerText = `COVID-19`;
+        virusTiContainer.appendChild(virusTitle);
         printCorona();
     }
     init(); 

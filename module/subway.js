@@ -4,6 +4,7 @@ function subwayModule(location){
     const statSt = document.createElement("p");
     const lineNm = document.createElement("p");
     const ArriveSt = document.createElement("p");
+    let trainLineNm = "";
     function printSubway(){
         fetch(
             'http://swopenapi.seoul.go.kr/api/subway/774b6f7549676b733130325a6f637148/json/realtimeStationArrival/0/1/%EC%A0%9C%EB%AC%BC%ED%8F%AC'
@@ -11,7 +12,7 @@ function subwayModule(location){
             return response.json();
         }).then(function(json){
             const statnNm = json.realtimeArrivalList[0].statnNm;
-            let trainLineNm = json.realtimeArrivalList[0].trainLineNm;
+            trainLineNm = json.realtimeArrivalList[0].trainLineNm;
             const arvlMsg = json.realtimeArrivalList[0].arvlMsg2;
             trainLineNm = trainLineNm.indexOf("[") === -1 ? trainLineNm : trainLineNm.replaceAll("[","");
             trainLineNm = trainLineNm.indexOf("]") === -1 ? trainLineNm : trainLineNm.replaceAll("]","");

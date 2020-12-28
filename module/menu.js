@@ -1,4 +1,4 @@
-function menuModule(location)
+function menuModule(location){
     const displayLocation_MeMo = location;
     const Breakfast = document.createElement("p");
     const Lunch = document.createElement("p");
@@ -21,9 +21,21 @@ function menuModule(location)
             breakfast = breakfast === "" ? " 아침 없음" : breakfast;
             lunch = lunch === "" ? " 점심 없음" : lunch;
             dinner = dinner === "" ? " 저녁 없음" : dinner; 
+            breakfast = breakfast.replaceAll("(","");
+            lunch = lunch.replaceAll("(","");
+            dinner = dinner.replaceAll("(","");
+            breakfast = breakfast.replaceAll(")","");
+            lunch = lunch.replaceAll(")","");
+            dinner = dinner.replaceAll(")","");
+            breakfast = breakfast.replaceAll("고","");
+            lunch = lunch.replaceAll("고","");
+            dinner = dinner.replaceAll("고","");
             breakfast = breakfast.replaceAll("\"","");
             lunch = lunch.replaceAll("\"","");
             dinner = dinner.replaceAll("\"","");
+            breakfast = breakfast.replaceAll("완제품","");
+            lunch = lunch.replaceAll("완제품","");
+            dinner = dinner.replaceAll("완제품","");
             Breakfast.innerText = `아침:${breakfast}`;
             Lunch.innerText = `점심:${lunch}`;
             Dinner.innerText = `저녁:${dinner}`;
@@ -45,3 +57,4 @@ function menuModule(location)
     }
     init();
 }
+module.exports = menuModule;

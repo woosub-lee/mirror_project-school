@@ -1,0 +1,15 @@
+const dateModule = require("./module/date");
+const coronaModule = require("./module/corona");
+const weatherModule = require("./module/weather");
+const clockModule = require("./module/clock");
+const subwayModule = require("./module/subway");
+const menuModule = require("./module/menu");
+const melonModule = require("./module/melon");
+const greetModule = require("./module/greeting");
+dateModule(".COM1");
+clockModule(".COM2");
+weatherModule(".COM3");
+coronaModule(".COM4_1", ".COM4_2", ".COM4_TITLE");
+menuModule(".CUSTOM2");
+melonModule(".CUSTOM1");
+greetModule(".GREETUSR", "YONGJIN");

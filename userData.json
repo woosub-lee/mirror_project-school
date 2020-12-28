@@ -1,0 +1,13 @@
+{
+    "Woosub":{
+        "melon":"0",
+        "menu":"1",
+        "subway":"2"
+    },
+    "JunSeo":{
+        "melon":"1",
+        "menu":"0",
+        "subway":"2"
+    },
+    "Current_USER": "Woosub"
+}

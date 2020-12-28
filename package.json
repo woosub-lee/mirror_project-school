@@ -23,6 +23,7 @@
   "dependencies": {
     "firebase": "^8.2.1",
     "jquery": "^3.5.1",
+    "request": "^2.88.2",
     "require": "^2.4.20",
     "requirejs": "^2.3.6"
   }

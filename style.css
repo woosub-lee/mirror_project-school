@@ -1,77 +1,77 @@
-body{
-    font-family: "Noto Sans CJK KR", serif;
-    background-image: url(img/black.jpeg);
-    background-repeat: initial;
-    background-size: cover;
-    color: white;
-    font-size: xx-large;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px 10px;
+body {
+  font-family: "Noto Sans CJK KR", serif;
+  background-image: url(img/black.jpeg);
+  background-repeat: initial;
+  background-size: cover;
+  color: white;
+  font-size: xx-large;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 2fr;
+  gap: 10px 10px;
 }
-p{
-    margin: 0px;
+p {
+  margin: 0px;
+  font-size: large;
 }
-#red_style{
-    color: #f59fb8;
+#red_style {
+  color: #f59fb8;
 }
-#green_style{
-    color: #aad272;
+#green_style {
+  color: #aad272;
 }
-#blue_style{
-    color: #84BCd5;
+#blue_style {
+  color: #84bcd5;
 }
 .form,
-.greeting{
-    display:none;
+.greeting {
+  display: none;
 }
-.showing{
-    display: block;
+.showing {
+  display: block;
 }
-input{
-    display: flex;
-    width: 200px;
-    height: 50px;
+input {
+  display: flex;
+  width: 200px;
+  height: 50px;
 }
-span{
-    font-size: medium;
-    color: white;
+span {
+  font-size: medium;
+  color: white;
 }
-.TOP_LEFT{
-    grid-column: 1/2;
-    grid-row: 1/2;
+.TOP_LEFT {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
-.TOP_MIDDLE{
-    grid-column: 2/3;
-    grid-row: 1/2;
+.TOP_MIDDLE {
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
-.TOP_RIGHT{
-    grid-column: 3/4;
-    grid-row: 1/2;
+.TOP_RIGHT {
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
-.CENTER_LEFT{
-    grid-column: 1/2;
-    grid-row: 2/3;
+.CENTER_LEFT {
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
-.CENTER_MIDDLE{
-    grid-column: 2/3;
-    grid-row: 2/3;
+.CENTER_MIDDLE {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
-.CENTER_RIGHT{
-    grid-column: 3/4;
-    grid-row: 2/3;
+.CENTER_RIGHT {
+  grid-column: 3/4;
+  grid-row: 2/3;
 }
-.BOTTOM_LEFT{
-    grid-column: 1/2;
-    grid-row: 3/4;
+.BOTTOM_LEFT {
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
-.BOTTOM_MIDDLE{
-    grid-column: 2/3;
-    grid-row: 3/4;
+.BOTTOM_MIDDLE {
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
-.BOTTOM_RIGHT{
-    grid-column: 3/4;
-    grid-row: 3/4;
+.BOTTOM_RIGHT {
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
-

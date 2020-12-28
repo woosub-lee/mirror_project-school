@@ -1,43 +1,45 @@
-const top_left = document.querySelector(".TOP_LEFT");
-const top_middle = document.querySelector(".TOP_MIDDLE");
-const top_right = document.querySelector(".TOP_RIGHT");
-const center_left = document.querySelector(".CENTER_LEFT");
-const center_middle = document.querySelector(".CENTER_MIDDLE");
-const center_right = document.querySelector(".CENTER_RIGHT");
-const bottom_left = document.querySelector(".BOTTOM_LEFT");
-const bottom_middle = document.querySelector(".BOTTOM_MIDDLE");
-const bottom_right = document.querySelector(".BOTTOM_RIGHT");
-function turnoff(){
-    while(top_left.hasChildNodes()){
-        top_left.removeChild(top_left.firstChild);
+function offModule(){
+    const com1 = document.querySelector(".COM1");
+    const com2 = document.querySelector(".COM2");
+    const com3 = document.querySelector(".COM3");
+    const com4_ti = document.querySelector(".COM4_TITLE"); 
+    const com4_1 = document.querySelector(".COM4_1");
+    const com4_2 = document.querySelector(".COM4_2");
+    const custom1 = document.querySelector(".CUSTOM1")
+    const custom2 = document.querySelector(".CUSTOM2");
+    const greetusr = document.querySelector(".GREETUSR");
+    function turnoff(){
+        while(com1.hasChildNodes()){
+            com1.removeChild(com1.firstChild);
+        }
+        while(com2.hasChildNodes()){
+            com2.removeChild(com2.firstChild);
+        }
+        while(com3.hasChildNodes()){
+            com3.removeChild(com3.firstChild);
+        }
+        while(com4_ti.hasChildNodes()){
+            com4_ti.removeChild(com4_ti.firstChild);
+        }
+        while(com4_1.hasChildNodes()){
+            com4_1.removeChild(com4_1.firstChild);
+        }
+        while(com4_2.hasChildNodes()){
+            com4_2.removeChild(com4_2.firstChild);
+        }
+        while(custom1.hasChildNodes()){
+            custom1.removeChild(custom1.firstChild);
+        }
+        while(custom2.hasChildNodes()){
+            custom2.removeChild(custom2.firstChild);
+        }
+        while(greetusr.hasChildNodes()){
+            greetusr.removeChild(greetusr.firstChild);
+        }
     }
-    while(top_middle.hasChildNodes()){
-        top_middle.removeChild(top_middle.firstChild);
+    function init(){
+        turnoff();
     }
-    while(top_right.hasChildNodes()){
-        top_right.removeChild(top_right.firstChild);
-    }
-    while(center_left.hasChildNodes()){
-        center_left.removeChild(center_left.firstChild);
-    }
-    while(center_middle.hasChildNodes()){
-        center_middle.removeChild(center_middle.firstChild);
-    }
-    while(center_right.hasChildNodes()){
-        center_right.removeChild(center_right.firstChild);
-    }
-    while(bottom_left.hasChildNodes()){
-        bottom_left.removeChild(bottom_left.firstChild);
-    }
-    while(bottom_middle.hasChildNodes()){
-        bottom_middle.removeChild(bottom_middle.firstChild);
-    }
-    while(bottom_right.hasChildNodes()){
-        bottom_right.removeChild(bottom_right.firstChild);
-    }
+    init();
 }
-function init(){
-    setTimeout(turnoff(),20000);
-    console.log("a");
-}
-//init();
+module.exports = offModule;

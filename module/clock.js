@@ -13,6 +13,8 @@ function clockModule(location){
     function init(){
         clockContainer.appendChild(clockHour);
         clockContainer.appendChild(clockMinute);
+        clockHour.id = "CL_HOUR";
+        clockMinute.id = "CL_MIN";
         printTime();
         setInterval(printTime,1000);
     }

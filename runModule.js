@@ -10,7 +10,7 @@ const offModule = require("./turnOff");
 const fs = require('fs');
 let pastdown = "0";
 let paston = "0";
-let user = ""
+let user = "";
 const turnOn = async () =>{
     await fs.readFile('userData.json', 'utf8', (error, jsonFile) =>{
         const userJson = JSON.parse(jsonFile);
@@ -21,7 +21,9 @@ const turnOn = async () =>{
         clockModule(".COM2");
         weatherModule(".COM3");
         coronaModule(".COM4_1", ".COM4_2", ".COM4_TITLE");
-        greetModule(".GREETUSR", user);
+        greetModule(".GREETUSR", "Woosub");
+        melonModule(".CUSTOM1");
+        subwayModule(".CUSTOM2");
 }
 function fileRead(){ 
     fs.readFile('words.json', 'utf8', (error, jsonFile) =>{

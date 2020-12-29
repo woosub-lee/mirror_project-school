@@ -5,7 +5,7 @@ function offModule(){
     const com4_ti = document.querySelector(".COM4_TITLE"); 
     const com4_1 = document.querySelector(".COM4_1");
     const com4_2 = document.querySelector(".COM4_2");
-    const custom1 = document.querySelector(".CUSTOM1")
+    const custom1 = document.querySelector(".CUSTOM1");
     const custom2 = document.querySelector(".CUSTOM2");
     const greetusr = document.querySelector(".GREETUSR");
     function turnoff(){

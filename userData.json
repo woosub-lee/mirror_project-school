@@ -2,12 +2,13 @@
     "Woosub":{
         "melon":"0",
         "menu":"1",
-        "subway":"2"
+        "subway":"1",
+        "name": "Woosub"
     },
-    "JunSeo":{
+    "hyeunwoo":{
         "melon":"1",
         "menu":"0",
-        "subway":"2"
-    },
-    "Current_USER": "Woosub"
+        "subway":"1",
+        "name": "hyeunwoo"
+    }
 }

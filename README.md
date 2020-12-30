@@ -15,7 +15,15 @@ Meister Deverlopment Project(MDP) - SmartMirror
  지하철의 도착시간을 보여줍니다.
 * Showing current situation for Corona virus in Korea  
  한국의 코로나 바이러스 현황을 보여줍니다.
-   
+* Showing music streaming rank from Melon  
+ Melon의 음악 스트리밍 순위를 보여줍니다.  
+  
+  
+Can add Other Module  
+다른 모듈도 추가할 수 있습니다.  
+Modules are written in Javascript  
+모듈들은 자바스크립트로 작성 되었습니다.  
+  
 ## Feature(특징)
 * Recognize face to get UserID  
  사용자 ID를 얻기위해 얼굴을 인식합니다.

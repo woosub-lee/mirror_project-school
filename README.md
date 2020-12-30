@@ -1,13 +1,30 @@
-# SmartMirror  
+# SmartMirror (OH MY MIRROR)  
 INCHEON ELECTRONIC MEISTER HIGHSCHOOL  
 Meister Deverlopment Project(MDP) - SmartMirror  
 
-## Module  
+## Module(모듈)  
 * Showing schoolCafeteria Menu  
+ 학교 급식 메뉴를 보여줍니다.
 * Showing digital Clock  
-* Showing temperature and weather  
-* Save username and greet to user  
-* Showing subway arrival time
-* Showing Corona virus in Korea
+ 디지털 시계를 보여줍니다.
+* Showing temperature and location  
+ 기온과 지역을 보여줍니다.
+* Showing username and greet to user  
+ 유저네임을 보여주고 사용자에게 인사말을 건넵니다.
+* Showing subway arrival time  
+ 지하철의 도착시간을 보여줍니다.
+* Showing current situation for Corona virus in Korea  
+ 한국의 코로나 바이러스 현황을 보여줍니다.
+   
+## Feature(특징)
+* Recognize face to get UserID  
+ 사용자 ID를 얻기위해 얼굴을 인식합니다.
+* Showing common Module to everyone  
+ 모든 사용자에게 공통 모듈을 보여줍니다.
+* Showing custom Module from UserData  
+ UserData를 이용해 커스텀 모듈을 보여줍니다.
+* Can stop to display Module by Google assistant  
+ 구글 어시스턴트로 모듈을 종료할 수 있습니다.
 --------------
-It will be mounted on a raspberry pi.
+It is mounted on a raspberry pi.  
+라즈베리파이에 탑재되었습니다.

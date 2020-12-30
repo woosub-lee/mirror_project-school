@@ -35,4 +35,8 @@ Modules are written in Javascript
  구글 어시스턴트로 모듈을 종료할 수 있습니다.
 --------------
 It is mounted on a raspberry pi.  
-라즈베리파이에 탑재되었습니다.
+라즈베리파이에 탑재되었습니다.  
+The Code of face Recognizing is not here. We replace it with OpenSource.  
+얼굴인식코드는 여기에 존재하지 않습니다. 우리는 그것을 오픈소스로 대체하였습니다.  
+Please refer to other code that deals with openCV written by other person.  
+다른 사람이 작성한 openCV를 사용하는 코드를 참고 해주세요. 

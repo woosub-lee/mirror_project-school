@@ -7,6 +7,7 @@ Meister Deverlopment Project(MDP) - SmartMirror
 * Showing digital Clock  
 * Showing temperature and weather  
 * Save username and greet to user  
-* making toDoList
+* Showing subway arrival time
+* Showing Corona virus in Korea
 --------------
 It will be mounted on a raspberry pi.

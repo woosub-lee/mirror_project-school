@@ -1,42 +1,54 @@
-# SmartMirror (OH MY MIRROR)  
-INCHEON ELECTRONIC MEISTER HIGHSCHOOL  
-Meister Deverlopment Project(MDP) - SmartMirror  
+# 🥇 오 마이 미러 프로젝트 
+인천전자마이스터고등학교의 명장양성프로젝트 2학년 수상작입니다.  
+개인별 맞춤 정보 제공 스마트 미러 프로젝트입니다.
 
-## Module(모듈)  
-* Showing schoolCafeteria Menu  
- 학교 급식 메뉴를 보여줍니다.
-* Showing digital Clock  
- 디지털 시계를 보여줍니다.
-* Showing temperature and location  
- 기온과 지역을 보여줍니다.
-* Showing username and greet to user  
- 유저네임을 보여주고 사용자에게 인사말을 건넵니다.
-* Showing subway arrival time  
- 지하철의 도착시간을 보여줍니다.
-* Showing current situation for Corona virus in Korea  
- 한국의 코로나 바이러스 현황을 보여줍니다.
-* Showing music streaming rank from Melon  
- Melon의 음악 스트리밍 순위를 보여줍니다.  
+## 🛠 모듈
+다음 기능을 내포하는 자바스크립트 모듈들을 가지고 있습니다
+
+* 인천전자마이스터고등학교의 급식 메뉴를 보여줍니다. 
   
+* 디지털 시계를 보여줍니다.  
   
-Can add Other Module  
-다른 모듈도 추가할 수 있습니다.  
-Modules are written in Javascript  
-모듈들은 자바스크립트로 작성 되었습니다.  
+* 기온과 지역을 보여줍니다.  
   
-## Feature(특징)
-* Recognize face to get UserID  
- 사용자 ID를 얻기위해 얼굴을 인식합니다.
-* Showing common Module to everyone  
- 모든 사용자에게 공통 모듈을 보여줍니다.
-* Showing custom Module from UserData  
- UserData를 이용해 커스텀 모듈을 보여줍니다.
-* Can stop to display Module by Google assistant  
- 구글 어시스턴트로 모듈을 종료할 수 있습니다.
---------------
-It is mounted on a raspberry pi.  
-라즈베리파이에 탑재되었습니다.  
-The Code of face Recognizing is not here. We replace it with OpenSource.  
-얼굴인식코드는 여기에 존재하지 않습니다. 우리는 그것을 오픈소스로 대체하였습니다.  
-Please refer to other code that deals with openCV written by other person.  
-다른 사람이 작성한 openCV를 사용하는 코드를 참고 해주세요. 
+* 등록된 유저네임을 보여주고 사용자에게 인사말을 건넵니다.  
+  
+* 제물포역 지하철의 도착시간을 보여줍니다.  
+  
+* 한국과 인천의 코로나 바이러스 현황을 보여줍니다.  
+  
+* 음악 스트리밍 사이트 Melon의 스트리밍 순위를 보여줍니다.  
+  
+모듈을 수정하거나 생성하여 적용시킬수 있습니다
+  
+## 📜 특징
+다음과 같은 특징을 가지고 있습니다.  
+  
+* 정보를 노출시키는 스마트모드와 일반 거울로 기능하는 일반모드가 존재합니다.
+  
+* 스마트모드로 작동시 각 모듈을 원하는 위치에 배치시켜 노출시킬 수 있습니다.
+  
+* 유저아이디가 등록된 사람이면 저장된 모듈정보를 불러와 정보를 제공합니다.
+  
+* 유저아이디가 등록된 사람이 아닐시, 기본 모듈만을 제공합니다.
+  
+* 컴퓨터비전을 활용한 얼굴인식으로 유저아이디를 판별합니다.
+  
+* 구글 어시스턴트 연동을 통해 일반모드와 스마트모드를 전환시킬 수 있습니다.
+
+## 💻 사용기술
+다음과 같은 기술을 사용하였습니다.  
+  
+* HTML5
+* CSS3
+* JavaScript
+* Electron 프레임워크
+* Python
+* Flask
+* OpenCV
+
+## ✨ 특이사항
+라즈베리파이4 기기에 탑재되었습니다.  
+OpenCV 코드는 이 레포지토리에 포함되어있지 않습니다.  
+다른 오픈소스코드를 참고하여 주시길 바랍니다.  
+**이 프로젝트는 코드 및 기능 재구성이 예정되어있습니다.**

@@ -1,5 +1,5 @@
 # 🥇 오 마이 미러 프로젝트 
-인천전자마이스터고등학교의 명장양성프로젝트 2학년 수상작입니다.  
+인천전자마이스터고등학교의 명장양성프로젝트 2020년도 2학년 수상작입니다.  
 개인별 맞춤 정보 제공 스마트 미러 프로젝트입니다.
 
 ## 🛠 모듈
@@ -39,13 +39,13 @@
 ## 💻 사용기술
 다음과 같은 기술을 사용하였습니다.  
   
-* HTML5
-* CSS3
-* JavaScript
-* Electron 프레임워크
-* Python
-* Flask
-* OpenCV
+* <img src="https://img.shields.io/badge/Electron-008896?style=flat-square&logo=electron&logoColor=white"/>  
+* <img src="https://img.shields.io/badge/HTML-11B48A?style=flat-square&logo=html5&logoColor=white"/>  
+* <img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/>  
+* <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"/>  
+* <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>  
+* <img src="https://img.shields.io/badge/Flask-ff8f88?style=flat-square&logo=Flask&logoColor=white"/>
+* <img src="https://img.shields.io/badge/OpenCV-00ff00?style=flat-square&logo=OpenCV&logoColor=white"/>
   
 ## 👨‍💻 참여자
   
